@@ -5,7 +5,7 @@
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    margin-top: 50px;
 }
 
 .header-image {
@@ -58,6 +58,35 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.to-catalog {
+  /*text-align: center;;*/
+	background-color:#ffffff;
+	-moz-border-radius:31px;
+	-webkit-border-radius:31px;
+	border-radius:31px;
+	border: 2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color:red;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:21px 57px;
+	text-decoration:none;
+}
+.here-is-button{
+  text-align: center;
+}
+.to-catalog:hover {
+	background-color:#ffffff;
+  color: red;
+}
+.to-catalog:active {
+	position:relative;
+	top:1px;
+}
+
 
 @media(max-width:1200px) {
     .headline h1 {
