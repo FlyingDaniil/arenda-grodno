@@ -1,0 +1,23 @@
+.nav-row{
+
+}
+.nav-ul{
+  text-align: center;
+  padding: 0;
+}
+.nav-ul-li{
+  display: inline;
+  padding: 10px 20px 10px 20px;
+  font-family: Cuprum;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-ul-li-active{
+  border: 2px aquamarine solid;
+  background: aquamarine;
+  border-radius: 15px;
+}
+.nav-ul-li:hover{
+  border: 2px aquamarine solid;
+  border-radius: 15px;
+}
