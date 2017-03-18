@@ -24,7 +24,7 @@ body {
 }
 
 .headline h1 {
-    font-size: 84px;
+    font-size: 80px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
@@ -89,11 +89,11 @@ footer {
 
 @media(max-width:1200px) {
     .headline h1 {
-        font-size: 140px;
+        font-size: 120px;
     }
 
     .headline h2 {
-        font-size: 63px;
+        font-size: 58px;
     }
 
     .featurette-divider {
@@ -115,11 +115,11 @@ footer {
 
 @media(max-width:991px) {
     .headline h1 {
-        font-size: 105px;
+        font-size: 90px;
     }
 
     .headline h2 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .featurette-divider {
@@ -159,11 +159,11 @@ footer {
 
 @media(max-width:668px) {
     .headline h1 {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .headline h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .featurette-divider {
@@ -177,11 +177,11 @@ footer {
     }
 
     .headline h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .headline h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
