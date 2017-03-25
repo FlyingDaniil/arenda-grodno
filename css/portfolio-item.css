@@ -15,3 +15,29 @@ body {
 footer {
     margin: 50px 0;
 }
+.to-contacts{
+  background-color:#ffffff;
+	-moz-border-radius:31px;
+	-webkit-border-radius:31px;
+	border-radius:31px;
+	border: 2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color:red;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:21px 57px;
+	text-decoration:none;
+}
+.here-is-button{
+  text-align: center;
+}
+.to-contacts:hover {
+	background-color:#ffffff;
+  color: red;
+}
+.to-contacts:active {
+	position:relative;
+	top:1px;
+}
