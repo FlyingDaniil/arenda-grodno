@@ -41,3 +41,23 @@ footer {
 	position:relative;
 	top:1px;
 }
+.gallery img{
+-webkit-transform:scale(0.95);
+-moz-transform:scale(0.95);
+-o-transform:scale(0.95);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+}
+
+.gallery img:hover{
+-webkit-transform:scale(1.8);
+-moz-transform:scale(1.8);
+-o-transform:scale(1.8);
+box-shadow:0px 0px 10px gray;
+-webkit-box-shadow:0px 0px 10px gray;
+-moz-box-shadow:0px 0px 10px gray;
+opacity: 1;
+position:relative;
+z-index: 10000;
+}
